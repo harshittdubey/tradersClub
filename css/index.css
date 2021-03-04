@@ -1,0 +1,534 @@
+/* CSS Reset  */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffebeb;
+    box-sizing: border-box;
+
+}
+
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
+
+#navbar .nav_logo{
+   width: 20%;
+
+}
+
+#navbar .nav_logo img{
+    height: 4rem;
+    width: 4rem;
+    margin-left: 23px;
+
+}
+
+#navbar .nav_items{
+    width: 50%;
+   
+}
+
+#navbar .nav-items{
+   list-style: none;
+   margin: 0px 11px;
+
+}
+
+#navbar .nav-items a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 17px;
+    border-radius: 21px;
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+#navbar .nav-items a:hover{
+    color: black;
+    background-color: white;
+}
+
+#navbar .nav_srh{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbox{
+    display: flex;
+    justify-content: center;
+}
+
+#navbar .nav_srh input{
+    font-size: 1rem;
+    padding: 7px 17px;
+    margin-right: 6px;
+    background: none;
+    border: 1px solid green;
+    border-radius: 9px;
+    margin-left: 36px;
+    color: white;
+
+}
+
+#navbar .nav_srh button{
+    color: white;
+    font-size: 1rem;
+    padding: 7px 17px;
+    margin-right: 6px;
+    background: none;
+    border: 1px solid green;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
+
+#navbar .nav_srh button:hover{
+  background-color: white;
+  color: black;
+}
+
+#navbar .burger{
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5%;
+}
+
+#navbar .burger-lines{
+    height: 6px;
+    width: 39px;
+    background-color: white;
+    margin: 5px 4px;
+}
+
+
+
+
+/*First section  */
+
+.firstsection{
+   
+    height: 630px;
+    width:  100%;
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+#mainbox{
+    display: flex;
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+#mainbox .div_main{
+    width: 60%;
+    align-items: center;
+    padding-left: 2em;
+}
+
+#mainbox .div_main .btns{
+    margin: auto;
+    width: 50%;
+}
+
+#mainbox .div_second{
+    display: flex;
+}
+
+
+#mainbox img{
+    height:12em;
+    width: 12em;
+    align-self: center;
+    margin: auto;
+    border-radius: 150px;
+    margin-left: 23px;
+
+}
+
+.h2_mainbox{
+    padding-bottom: 0;
+    padding-left: 23px;
+    padding-top: 23px;
+    padding-right: 23px;
+}
+
+
+.firstsection::before{
+    content: "";
+    background: url("../img/trader1920.jpg") center;
+    height:630px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+
+
+/* Second section  */
+
+
+#container{
+    display: flex;
+   
+}
+
+
+#secondsection p{
+   /* padding: 0px 23px; */
+   margin-bottom: 8px;
+   color: black;
+}
+
+#secondsection .box-2{
+    border: 2px solid red;
+    margin: 4px 0 10px 11px;
+    padding: 23px 15px;
+    text-align: center;
+    background-color: #ffdede;
+    border-radius: 23px;
+}
+
+#secondsection img{
+    display: block;
+    margin: auto;
+    height: 128px;
+    border-radius: 50%;
+
+}
+
+#secondsection a{
+   color: #0073b7;
+   font-size: 1.5rem;
+    behavior: button;
+
+}
+
+#secondsection a:hover{
+   color: red;
+
+}
+
+
+/* Third Section */ 
+
+
+
+#container3{
+    display: flex;
+    width:calc(100%-2em);
+    font-size: 20px;
+}
+
+#container3 .part1{
+    /* border: 2px solid red; */
+    margin: 0 0 23px 0;
+    padding: 0 23px 23px 23px;
+    width: 50%;
+
+
+}
+
+#container3 .part2{
+    /* border: 2px solid red; */
+    margin: 0 23px 33px 0;
+    padding: 21px;
+    width: 40%;
+    background-color: #fc4c57;
+    border-radius: 28px;
+    color: white;
+    
+
+}
+
+#container3 .part2 p{
+    font-size: 1.4rem;
+    line-height: 1.1em;
+    margin: 12px;
+    color: rgb(240, 202, 202) !important;
+}
+
+#container3 .part2 div{
+    height: auto;
+}
+
+#container3 span{
+    color: red;
+    font-weight: bold;
+}
+
+#container3 h1{
+    font-size: 2.5rem;
+    font-family: system-ui;
+}
+
+#container3 h2{
+    font-family: system-ui;
+}
+
+#container3 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+
+
+#container3 .contact-box{
+    margin-bottom: 2.5em;
+}
+
+#container3 input{
+    width: calc(100% - 1em);
+    font-size: 1.5rem;
+    padding: 9px 12px;
+    margin: 13px 0px;
+    border: 1px solid rgb(218, 205, 31);
+    border-radius: 9px;
+    background: none;
+    color: white;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+#container3 textarea{
+    margin-top: 1em;
+    width: calc(100% - 0.3em);
+    border: 1px solid rgb(197, 216, 24);
+    height: 3em;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+
+#container3 button{
+    padding: 12px 15px;
+    margin: 23px 0px;
+    /* background-color:none; */
+    border: 1px solid #ffd108;
+    color: #ffc520;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-family: cursive;
+
+}
+
+#container3 button:hover{
+    background-color: #abab00;
+    color: #800023;
+}
+
+
+/* fourth Section  */
+
+
+#container4 {
+    display: flex;
+    width:calc(100%-2em);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#container4 .part1{
+    margin: 0 0 23px 0;
+    padding: 0 23px 23px 23px;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+#container4 h2{
+    font-family: system-ui;
+    color: red;
+    font-size: 2.2rem;
+}
+
+#container4 ul{
+   margin-top: 2em;
+}
+
+#container4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    line-height: 1.8em;
+    color: rgb(60, 65, 60);
+    font-size: 1.1rem;
+}
+
+#container4 li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    line-height: 2em;
+    /* color: green; */
+    font-weight: bolder;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer  */
+
+#footer{
+    font-size: 1.2rem;
+}
+
+.fcontainer1{
+    display: flex;
+}
+
+.footer-box1{
+    width: 30%;
+    padding: 2em;
+    border-right: 1px solid chartreuse;
+   
+}
+
+.footer-box1 img{
+    width: 2em;
+    height: 2em;
+}
+
+.footer-box2{
+    width: 30%;
+    padding: 2em;
+   border-right: 1px solid chartreuse;
+}
+
+.footer-box3{
+    width: 30%;
+    padding: 2em;
+   /* border-right: 1px solid chartreuse; */
+}
+
+.fcontainer2{
+    display: flex;
+    margin-top: 1em;
+    
+}
+
+.fcontainer2 .box-1{
+    width: 60%;
+    margin-left: 2em;
+}
+
+.fcontainer2 .box-2{
+    width: 40%;
+    text-align: right;
+    margin-top: 1em;
+    padding-right: 1em;
+}
+
+#footer h1{
+    color: red;
+    font-family: system-ui;
+}
+
+#footer h2{
+    color: red;
+    font-family: system-ui;
+}
+
+#footer p{
+    color: gray;
+}
+
+#footer a{
+   text-decoration: none;
+   color: gray;
+}
+
+#footer li{
+    list-style: none;
+    list-style-type:square;
+    line-height: 2em;
+}
+
+
+
+
+
+
+
+
+/* Utilities */
+
+footer{
+    background-color: black;
+    color: white;
+    /* padding: 26px; */
+   
+
+}
+
+.btn{
+    color: white;
+}
+
+.h_primary{
+      font-size: 2rem;
+      color: #f33112;
+    font-family: system-ui;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.p_primary{
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    line-height: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.btn_primary{
+    padding: 7px 15px;
+    background: none;
+    border: 1px solid #ffd108;
+    color: #ffc520;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    margin: 0px 16px;
+    font-family: cursive;
+}
+
+.btn_primary:hover{
+    background-color: #abab00;
+    color: #800023;
+}
+
+.h1-main{
+    text-align: center;
+    font-size: 2.3em;
+    color: brown;
+    font-family: system-ui;
+}
+
+.reddish{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}

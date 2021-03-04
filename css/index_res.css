@@ -1,0 +1,65 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+#mainbox{ 
+    width: 90%;
+}
+
+#mainbox .div_main .btns{
+    margin: auto;
+    width: 80%;
+}
+
+#container4 .part1{
+   
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+#navbar .nav_logo{
+    width: 10%;
+ 
+}
+
+ #navbar .nav_items{
+    width: 70%;
+   
+}
+
+#navbar .nav_srh{
+    width: 30%;
+}
+
+#navbar .nav_srh input{
+    font-size: 1rem;
+    padding: 7px 1em;
+    margin-left: 2em;
+    width: 7em;
+
+}
+
+#navbar .nav_srh button{
+  
+    padding: 7px 1em;
+    margin-right: 6px;
+   
+    
+}
+
+.firstsection{
+    height:630px;
+   
+}
+
+.firstsection::before{
+    content: "";
+    background: url("../img/trader1920.jpg") center center/cover;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+

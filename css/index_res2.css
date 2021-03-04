@@ -1,0 +1,138 @@
+#navbar .burger{
+    display: block;
+    transition: all 0.5s ease-out;
+
+}
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 295px; */
+    padding-bottom: 7px;
+    transition: all 0.5s ease-out;
+}
+
+#navbox{
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+#mainbox{
+    flex-direction: column-reverse;
+
+}
+
+#mainbox .div_main{
+    width: 90%;
+    align-items: center;
+    padding-left: 0;
+}
+
+#mainbox img{
+    margin: 0 auto;
+    height:10em;
+    width: 10em;
+}
+
+
+.h2_mainbox{
+    padding-top: 0;
+    margin-top: 0;
+  
+}
+
+.h_primary{
+  line-height: 1.5em;
+  margin-top: 0;
+
+}
+
+.firstsection{
+    height:850px;
+}
+
+.firstsection::before{
+    height:850px;
+}
+
+
+#mainbox .div_main .btns{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+
+#mainbox .div_main .btn_primary{
+    margin:3px auto;
+}
+
+#container3{
+    display: flex;
+    flex-direction: column;
+}
+
+#container3 .part1{
+    width: 90%;
+    margin: 0 0 3px 0;
+}
+
+#container3 .part2{
+    width: 90%;
+}
+
+.fcontainer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box1{
+    width: 90%;
+    /* margin: auto; */
+    border: none;
+   
+}
+
+.footer-box2{
+    width: 90%;
+    /* margin: auto; */
+    border: none;
+
+   
+}
+
+.footer-box3{
+    width: 90%;
+    /* margin: auto; */
+    
+   
+}
+
+.fcontainer2 .box-1{
+    width: 50%;
+    /* margin-left: 0.5em; */
+}
+
+.fcontainer2 .box-2{
+    width: 40%;
+    /* margin-left: 1em; */
+    padding-right: 1em;
+}
+
+.h-nav-res{
+    height: fit-content;
+}
+
+.v-nav-res{
+    display: none;
+   
+}
